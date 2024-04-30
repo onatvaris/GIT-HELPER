@@ -1,6 +1,5 @@
 # GIT-HELPER
 
-
 - git init -> git depomuzu olusturduk
 - git status -> git durumunu kontrol ettik
 - git diff -> degisiklikleri kontrol ettik
@@ -18,7 +17,8 @@
 - git remote add origin https://github.com/onatvaris/GIT-HELPER.git -> remote repository ekledik
 - git push -u origin master -> remote repository e push ettik
 
-## BRANCHES ##
+## BRANCHES
+
 - git branch -> branchleri kontrol ettik
 - git branch feature1 -> feature1 branch olusturduk
 - git branch -> branchleri kontrol ettik
@@ -35,3 +35,14 @@
 - git push origin --delete feature1 -> remote repository deki feature1 branchini sildik
 - git branch -> branchleri kontrol ettik
 
+## TAGS
+
+- git tag -a v1.0 -m "version 1.0" -> tag olusturduk
+- git tag -> tagleri kontrol ettik
+- git push origin v1.0 -> remote repository e tagi push ettik
+- git tag -d v1.0 -> tagi sildik
+- git tag -> tagleri kontrol ettik
+- git push origin --delete v1.0 -> remote repository deki tagi sildik
+- git tag -> tagleri kontrol ettik
+- git push origin --tags -> remote repository e tagleri push ettik
+- git tag -> tagleri kontrol ettik
